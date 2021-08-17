@@ -13,6 +13,7 @@ server.listen(port); // Faz com que o servidor receba requisiçoes na porta defi
 server.on('error', onError); // Adiciona ao servidor a funcao de tratativa de erros onError
 server.on('listening', onListening);
 
+
 function normalizePort(val) {           // Função para atribuir uma porta disponivel
     const port = parseInt(val, 10);
     if (isNaN(port)) {
